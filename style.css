@@ -1,0 +1,205 @@
+/*all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width:1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*all common css start */
+
+/* header section style  start*/
+#headerpart{
+    padding: 33px;
+}
+.navbarFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 50px;
+    
+   
+}
+.menu ul li a{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: auto;
+    transition: all 0.3s ease-in-out;
+
+}
+.menu ul li a:hover{
+    color: #5956E8;
+}
+.navBtn a {
+    background-color: #5956E8;
+    color: #FFFFFF;
+    padding: 13px 24px;
+    border-radius: 10px;
+    padding: 13px 24px ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: auto;
+
+}
+
+/* header section style  end*/
+
+/* bannee section style  start*/
+#bannerPart{
+    background-color: #5956E8;
+    color: #FFFFFF;
+    padding: 183px;
+}
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerContent h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    color: #FFFFFF;
+    width: 501px;
+
+}
+.bannerContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width:542px ;
+}
+.bannerBtn a{
+    padding: 13px 22px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #5956E8;
+    font-size: 18px;
+    font-weight: 500; 
+}
+/* banner section style  end*/
+
+
+/* Services section style  start*/
+#servicePart{}
+.serviceContent{
+    text-align: center;
+}
+.bannerContent h3{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color:#181818 ;
+}
+.serviceContent p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    margin:0 auto ;
+}
+.serviceCardFlex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    border: 1px solid #E3E3E3;
+    width: 32%;
+    padding: 63px 48px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+.card:hover{
+    box-shadow: 0px 6px 35px 0px rgba(0, 0,0, 0.08);
+}
+.card:hover .cardImg svg path{
+    fill: #5956E8;
+    stroke: #FFFFFF;
+
+}
+.card h4{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.card p{ 
+    width: 274px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(24, 24,24, 0.7);
+}
+/* 1st Portfolio_header start */
+.Portfolio_header {
+    text-align: center;
+}
+.Portfolio_header h3{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color:#181818 ;
+
+}
+.Portfolio_header p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    margin:0 auto ;
+}
+.portfolioImg{}
+.imgLine1{
+    width: 270px;
+}
+.imagehover:hover{
+    box-shadow: 0px 6px 35px 0px rgba(0, 0,0, 0.08);
+}
+.imagebuttonhover a{
+    background-color: #5956E8;
+}
+.imagebuttonhover:hover{
+    box-shadow: 0px 6px 35px 0px rgba(0, 0,0, 0.08);
+}
+/* 1st Portfolio_header start */
+
+/* Services section style  end*/
+
+
+/* header section style  start*/
+/* header section style  end*/
+/* header section style  start*/
+/* header section style  end*/
+/* header section style  start*/
+/* header section style  end*/
+/* header section style  start*/
+/* header section style  end*/
+/* header section style  start*/
+/* header section style  end*/
+/* header section style  start*/
+/* header section style  end*/
