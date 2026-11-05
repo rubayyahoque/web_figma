@@ -38,6 +38,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .menu ul {
   display: flex;
   gap: 50px;
@@ -169,113 +170,105 @@ a {
   width: 542px;
   margin: 0 auto;
 }
-/
+
 
 /* 1st pic protfolio start */
-.portfolioImg {
-    display: flex;
-    justify-content: space-between;
-}
-.imgLine1 {
-  width: 270px;
+.cardLine1 {
   display: flex;
-
-}
-.custom-btn {
-  /* Box sizing & background */
-  background-color:#5851EA; 
-  width: 230px;
-  padding: 20px 15px;
-  border: none;
-  border-radius: 10px; 
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  box-shadow: 0px 10px 20px rgba(88, 81, 234, 0.4);
-  transition: all 0.3s ease;
+  width: 1169px;
 }
 
-
-.custom-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0px 14px 25px rgba(88, 81, 234, 0.5);
-}
-
-/* Font styles */
-
-.btn-subtitle {
-  font-size: 13px;
-  font-weight: 400;
-  opacity: 0.9;
-}
-
-.card-container {
+.protfolioCardImg{
   position: relative;
-  width: 300px;
-  margin: 50px auto;
+  width: 270px;;
+ 
+ 
 }
-
-/* Image er design */
-.card-img {
-  width: 100%;
-  display: block;
-  border-radius: 12px;
-}
-
-
-.custom-btn {
+.cardBox{
+  background-color: #5956e8;
+  width: 230px;
+  height: 85px;
+  display: none;
+  
   position: absolute;
-  left: 72%;
-  transform: translateX(-275%) translateY(350%); 
-} 
-.custom-btn{
-  background-color: #5851EA;
-  width: 80%; 
-  max-width: 230px;
-  padding: 15px 10px;
-  border: none;
-  border-radius: 8px;
-  align-items: center;
-  justify-content: center;
-  color: #FFFFFF;
-  box-shadow: 0px 10px 20px rgba(88, 81, 234, 0.4);
-  z-index: 10;
+  bottom: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
 
-}
-
-.custom-btn:hover {
-  box-shadow: 0px 14px 25px rgba(88, 81, 234, 0.5);
-}
-
-.btn-title {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.btn-subtitle {
-  font-size: 12px;
-  font-weight: 400;
-}
  
 
-/* 1st pic protfolio end */
+}
 
+h4,a {
+  color: #FFFFFF;
+}
+.protfolioCardImg:hover .cardBox{
+  display:block;
+  z-index:19 px;
+
+}
+.cardBox h4,a{
+   text-align: center;
+   margin-top: 20px;
+}
+/* 1st pic protfolio end */
 
 /* 1st Portfolio_header start */
 
 /* Services section style  end*/
 
-/* header section style  start*/
-/* header section style  end*/
-/* header section style  start*/
-/* header section style  end*/
-/* header section style  start*/
-/* header section style  end*/
-/* header section style  start*/
-/* header section style  end*/
-/* header section style  start*/
-/* header section style  end*/
-/* header section style  start*/
-/* header section style  end*/
+/* team member section style  start*/
+
+.Member_header {
+  text-align: center;
+}
+.Member_header h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #181818;
+}
+.Member_header p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 542px;
+  margin: 0 auto;
+}
+/* team member section style  end*/
+/* member section style  start*/
+.memberImg {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+/* member section style  end*/
+/* customer section style  start*/
+.customer_header {
+}
+.customer_header h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #181818;
+  left: 0;
+}
+.customer_header p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 542px;
+  height: 83px;
+  margin: 0 0;
+}
+
+
+
+/* customer section style  end*/
+/* customer section style  start*/
+/* customer section style  end*/
+/* customer section style  start*/
+/* customer section style  end*/
+/* customer section style  start*/
+/* customer section style  end*/
